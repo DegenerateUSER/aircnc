@@ -1,0 +1,52 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
